@@ -1,0 +1,12 @@
+Jenkins Pipeline Execution:
+
+Jenkins pipeline automates the deployment process, including code checkout, dependency installation, and deployment to SAP BTP.
+Node.js Application on SAP BTP:
+
+The application, running on SAP BTP, serves HTTP requests and generates telemetry data using OpenTelemetry.
+OpenTelemetry Prometheus Exporter:
+
+OpenTelemetry captures metrics and exposes them at the /metrics endpoint in Prometheus format.
+Prometheus Scraping:
+
+Prometheus server scrapes the /metrics endpoint periodically to collect telemetry data from the application
